@@ -1,0 +1,859 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15C1435327B8ADB20056C93B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1435227B8ADB20056C93B /* AppDelegate.swift */; };
+		15C1435527B8ADB30056C93B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1435427B8ADB30056C93B /* SceneDelegate.swift */; };
+		15C1435727B8ADB30056C93B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1435627B8ADB30056C93B /* ViewController.swift */; };
+		15C1435A27B8ADB30056C93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C1435827B8ADB30056C93B /* Main.storyboard */; };
+		15C1435C27B8ADBB0056C93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15C1435B27B8ADBB0056C93B /* Assets.xcassets */; };
+		15C1435F27B8ADBB0056C93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15C1435D27B8ADBB0056C93B /* LaunchScreen.storyboard */; };
+		15C1436A27B8ADBB0056C93B /* Otoklix_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1436927B8ADBB0056C93B /* Otoklix_TestTests.swift */; };
+		15C1437427B8ADBC0056C93B /* Otoklix_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1437327B8ADBC0056C93B /* Otoklix_TestUITests.swift */; };
+		15C1437627B8ADBC0056C93B /* Otoklix_TestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1437527B8ADBC0056C93B /* Otoklix_TestUITestsLaunchTests.swift */; };
+		15C1438C27B8B7310056C93B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1438B27B8B7310056C93B /* NetworkManager.swift */; };
+		15C1439227B8BEE40056C93B /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1439127B8BEE40056C93B /* BlogPost.swift */; };
+		15C1439427B8C1340056C93B /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1439327B8C1340056C93B /* MainViewModel.swift */; };
+		15C1439627B8C8190056C93B /* BlogPostDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1439527B8C8190056C93B /* BlogPostDetailViewController.swift */; };
+		15C1439827B8CCAB0056C93B /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C1439727B8CCAB0056C93B /* CreatePostViewController.swift */; };
+		70DE89EBC94FD22ACCA02089 /* Pods_Otoklix_TestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15D9F7C24ACE57C9BF412FB3 /* Pods_Otoklix_TestTests.framework */; };
+		958B87B24C9AE43A9A70AC12 /* Pods_Otoklix_Test_Otoklix_TestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1D1DE9732D7F8998D107744 /* Pods_Otoklix_Test_Otoklix_TestUITests.framework */; };
+		C16E061F492E7627B799A524 /* Pods_Otoklix_Test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 989350CE2F1B4675EF316CEB /* Pods_Otoklix_Test.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15C1436627B8ADBB0056C93B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C1434727B8ADB20056C93B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C1434E27B8ADB20056C93B;
+			remoteInfo = "Otoklix Test";
+		};
+		15C1437027B8ADBC0056C93B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15C1434727B8ADB20056C93B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15C1434E27B8ADB20056C93B;
+			remoteInfo = "Otoklix Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15C1434F27B8ADB20056C93B /* Otoklix Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Otoklix Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C1435227B8ADB20056C93B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15C1435427B8ADB30056C93B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		15C1435627B8ADB30056C93B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15C1435927B8ADB30056C93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15C1435B27B8ADBB0056C93B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15C1435E27B8ADBB0056C93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15C1436027B8ADBB0056C93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C1436527B8ADBB0056C93B /* Otoklix TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Otoklix TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C1436927B8ADBB0056C93B /* Otoklix_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otoklix_TestTests.swift; sourceTree = "<group>"; };
+		15C1436F27B8ADBC0056C93B /* Otoklix TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Otoklix TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15C1437327B8ADBC0056C93B /* Otoklix_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otoklix_TestUITests.swift; sourceTree = "<group>"; };
+		15C1437527B8ADBC0056C93B /* Otoklix_TestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Otoklix_TestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		15C1438B27B8B7310056C93B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		15C1439127B8BEE40056C93B /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
+		15C1439327B8C1340056C93B /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		15C1439527B8C8190056C93B /* BlogPostDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPostDetailViewController.swift; sourceTree = "<group>"; };
+		15C1439727B8CCAB0056C93B /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
+		15D9F7C24ACE57C9BF412FB3 /* Pods_Otoklix_TestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otoklix_TestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88653C5BF8AE1B7167A22E06 /* Pods-Otoklix TestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otoklix TestTests.debug.xcconfig"; path = "Target Support Files/Pods-Otoklix TestTests/Pods-Otoklix TestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9F9D8FA9E09C8DF8D76ACD /* Pods-Otoklix Test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otoklix Test.debug.xcconfig"; path = "Target Support Files/Pods-Otoklix Test/Pods-Otoklix Test.debug.xcconfig"; sourceTree = "<group>"; };
+		989350CE2F1B4675EF316CEB /* Pods_Otoklix_Test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otoklix_Test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B291084AB71F64FFD9973DB2 /* Pods-Otoklix TestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otoklix TestTests.release.xcconfig"; path = "Target Support Files/Pods-Otoklix TestTests/Pods-Otoklix TestTests.release.xcconfig"; sourceTree = "<group>"; };
+		B8A53235D7902F47734446E1 /* Pods-Otoklix Test-Otoklix TestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otoklix Test-Otoklix TestUITests.release.xcconfig"; path = "Target Support Files/Pods-Otoklix Test-Otoklix TestUITests/Pods-Otoklix Test-Otoklix TestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C325B1429CF32578B7019BCA /* Pods-Otoklix Test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otoklix Test.release.xcconfig"; path = "Target Support Files/Pods-Otoklix Test/Pods-Otoklix Test.release.xcconfig"; sourceTree = "<group>"; };
+		D1D1DE9732D7F8998D107744 /* Pods_Otoklix_Test_Otoklix_TestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Otoklix_Test_Otoklix_TestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3128D7C7D367C0707175B17 /* Pods-Otoklix Test-Otoklix TestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Otoklix Test-Otoklix TestUITests.debug.xcconfig"; path = "Target Support Files/Pods-Otoklix Test-Otoklix TestUITests/Pods-Otoklix Test-Otoklix TestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15C1434C27B8ADB20056C93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C16E061F492E7627B799A524 /* Pods_Otoklix_Test.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C1436227B8ADBB0056C93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DE89EBC94FD22ACCA02089 /* Pods_Otoklix_TestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C1436C27B8ADBC0056C93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				958B87B24C9AE43A9A70AC12 /* Pods_Otoklix_Test_Otoklix_TestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083B705E3F7E4BB8C1E21C6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				989350CE2F1B4675EF316CEB /* Pods_Otoklix_Test.framework */,
+				D1D1DE9732D7F8998D107744 /* Pods_Otoklix_Test_Otoklix_TestUITests.framework */,
+				15D9F7C24ACE57C9BF412FB3 /* Pods_Otoklix_TestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15C1434627B8ADB20056C93B = {
+			isa = PBXGroup;
+			children = (
+				15C1435127B8ADB20056C93B /* Otoklix Test */,
+				15C1436827B8ADBB0056C93B /* Otoklix TestTests */,
+				15C1437227B8ADBC0056C93B /* Otoklix TestUITests */,
+				15C1435027B8ADB20056C93B /* Products */,
+				38ED1A5338742FA9AEC17502 /* Pods */,
+				083B705E3F7E4BB8C1E21C6C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		15C1435027B8ADB20056C93B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15C1434F27B8ADB20056C93B /* Otoklix Test.app */,
+				15C1436527B8ADBB0056C93B /* Otoklix TestTests.xctest */,
+				15C1436F27B8ADBC0056C93B /* Otoklix TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15C1435127B8ADB20056C93B /* Otoklix Test */ = {
+			isa = PBXGroup;
+			children = (
+				15C1439027B8BEC40056C93B /* ViewModels */,
+				15C1438F27B8BEBA0056C93B /* Models */,
+				15C1438A27B8B71C0056C93B /* Managers */,
+				15C1438327B8B1F80056C93B /* ViewControllers */,
+				15C1438227B8B1EA0056C93B /* Views */,
+				15C1435227B8ADB20056C93B /* AppDelegate.swift */,
+				15C1435427B8ADB30056C93B /* SceneDelegate.swift */,
+				15C1435B27B8ADBB0056C93B /* Assets.xcassets */,
+				15C1435D27B8ADBB0056C93B /* LaunchScreen.storyboard */,
+				15C1436027B8ADBB0056C93B /* Info.plist */,
+			);
+			path = "Otoklix Test";
+			sourceTree = "<group>";
+		};
+		15C1436827B8ADBB0056C93B /* Otoklix TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				15C1436927B8ADBB0056C93B /* Otoklix_TestTests.swift */,
+			);
+			path = "Otoklix TestTests";
+			sourceTree = "<group>";
+		};
+		15C1437227B8ADBC0056C93B /* Otoklix TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				15C1437327B8ADBC0056C93B /* Otoklix_TestUITests.swift */,
+				15C1437527B8ADBC0056C93B /* Otoklix_TestUITestsLaunchTests.swift */,
+			);
+			path = "Otoklix TestUITests";
+			sourceTree = "<group>";
+		};
+		15C1438227B8B1EA0056C93B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15C1438427B8B21E0056C93B /* Cells */,
+				15C1435827B8ADB30056C93B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		15C1438327B8B1F80056C93B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				15C1438727B8B3160056C93B /* Cells */,
+				15C1435627B8ADB30056C93B /* ViewController.swift */,
+				15C1439527B8C8190056C93B /* BlogPostDetailViewController.swift */,
+				15C1439727B8CCAB0056C93B /* CreatePostViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		15C1438427B8B21E0056C93B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		15C1438727B8B3160056C93B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		15C1438A27B8B71C0056C93B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				15C1438B27B8B7310056C93B /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		15C1438F27B8BEBA0056C93B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				15C1439127B8BEE40056C93B /* BlogPost.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		15C1439027B8BEC40056C93B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				15C1439327B8C1340056C93B /* MainViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		38ED1A5338742FA9AEC17502 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F9F9D8FA9E09C8DF8D76ACD /* Pods-Otoklix Test.debug.xcconfig */,
+				C325B1429CF32578B7019BCA /* Pods-Otoklix Test.release.xcconfig */,
+				F3128D7C7D367C0707175B17 /* Pods-Otoklix Test-Otoklix TestUITests.debug.xcconfig */,
+				B8A53235D7902F47734446E1 /* Pods-Otoklix Test-Otoklix TestUITests.release.xcconfig */,
+				88653C5BF8AE1B7167A22E06 /* Pods-Otoklix TestTests.debug.xcconfig */,
+				B291084AB71F64FFD9973DB2 /* Pods-Otoklix TestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15C1434E27B8ADB20056C93B /* Otoklix Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C1437927B8ADBC0056C93B /* Build configuration list for PBXNativeTarget "Otoklix Test" */;
+			buildPhases = (
+				7C2C032E47C161CABE8F6064 /* [CP] Check Pods Manifest.lock */,
+				15C1434B27B8ADB20056C93B /* Sources */,
+				15C1434C27B8ADB20056C93B /* Frameworks */,
+				15C1434D27B8ADB20056C93B /* Resources */,
+				18164ED6298692818EA56A06 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Otoklix Test";
+			productName = "Otoklix Test";
+			productReference = 15C1434F27B8ADB20056C93B /* Otoklix Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15C1436427B8ADBB0056C93B /* Otoklix TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C1437C27B8ADBC0056C93B /* Build configuration list for PBXNativeTarget "Otoklix TestTests" */;
+			buildPhases = (
+				623E526B688AC3E7B0553B86 /* [CP] Check Pods Manifest.lock */,
+				15C1436127B8ADBB0056C93B /* Sources */,
+				15C1436227B8ADBB0056C93B /* Frameworks */,
+				15C1436327B8ADBB0056C93B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C1436727B8ADBB0056C93B /* PBXTargetDependency */,
+			);
+			name = "Otoklix TestTests";
+			productName = "Otoklix TestTests";
+			productReference = 15C1436527B8ADBB0056C93B /* Otoklix TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		15C1436E27B8ADBC0056C93B /* Otoklix TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15C1437F27B8ADBC0056C93B /* Build configuration list for PBXNativeTarget "Otoklix TestUITests" */;
+			buildPhases = (
+				2AEC455CB84946970C163D09 /* [CP] Check Pods Manifest.lock */,
+				15C1436B27B8ADBC0056C93B /* Sources */,
+				15C1436C27B8ADBC0056C93B /* Frameworks */,
+				15C1436D27B8ADBC0056C93B /* Resources */,
+				8144EC272C688CC0E4389A42 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15C1437127B8ADBC0056C93B /* PBXTargetDependency */,
+			);
+			name = "Otoklix TestUITests";
+			productName = "Otoklix TestUITests";
+			productReference = 15C1436F27B8ADBC0056C93B /* Otoklix TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15C1434727B8ADB20056C93B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					15C1434E27B8ADB20056C93B = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					15C1436427B8ADBB0056C93B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 15C1434E27B8ADB20056C93B;
+					};
+					15C1436E27B8ADBC0056C93B = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 15C1434E27B8ADB20056C93B;
+					};
+				};
+			};
+			buildConfigurationList = 15C1434A27B8ADB20056C93B /* Build configuration list for PBXProject "Otoklix Test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15C1434627B8ADB20056C93B;
+			productRefGroup = 15C1435027B8ADB20056C93B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15C1434E27B8ADB20056C93B /* Otoklix Test */,
+				15C1436427B8ADBB0056C93B /* Otoklix TestTests */,
+				15C1436E27B8ADBC0056C93B /* Otoklix TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15C1434D27B8ADB20056C93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C1435F27B8ADBB0056C93B /* LaunchScreen.storyboard in Resources */,
+				15C1435C27B8ADBB0056C93B /* Assets.xcassets in Resources */,
+				15C1435A27B8ADB30056C93B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C1436327B8ADBB0056C93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C1436D27B8ADBC0056C93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18164ED6298692818EA56A06 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otoklix Test/Pods-Otoklix Test-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otoklix Test/Pods-Otoklix Test-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Otoklix Test/Pods-Otoklix Test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AEC455CB84946970C163D09 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Otoklix Test-Otoklix TestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		623E526B688AC3E7B0553B86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Otoklix TestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C2C032E47C161CABE8F6064 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Otoklix Test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8144EC272C688CC0E4389A42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otoklix Test-Otoklix TestUITests/Pods-Otoklix Test-Otoklix TestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Otoklix Test-Otoklix TestUITests/Pods-Otoklix Test-Otoklix TestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Otoklix Test-Otoklix TestUITests/Pods-Otoklix Test-Otoklix TestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15C1434B27B8ADB20056C93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C1439627B8C8190056C93B /* BlogPostDetailViewController.swift in Sources */,
+				15C1439227B8BEE40056C93B /* BlogPost.swift in Sources */,
+				15C1439827B8CCAB0056C93B /* CreatePostViewController.swift in Sources */,
+				15C1438C27B8B7310056C93B /* NetworkManager.swift in Sources */,
+				15C1435727B8ADB30056C93B /* ViewController.swift in Sources */,
+				15C1435327B8ADB20056C93B /* AppDelegate.swift in Sources */,
+				15C1435527B8ADB30056C93B /* SceneDelegate.swift in Sources */,
+				15C1439427B8C1340056C93B /* MainViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C1436127B8ADBB0056C93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C1436A27B8ADBB0056C93B /* Otoklix_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15C1436B27B8ADBC0056C93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15C1437427B8ADBC0056C93B /* Otoklix_TestUITests.swift in Sources */,
+				15C1437627B8ADBC0056C93B /* Otoklix_TestUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15C1436727B8ADBB0056C93B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C1434E27B8ADB20056C93B /* Otoklix Test */;
+			targetProxy = 15C1436627B8ADBB0056C93B /* PBXContainerItemProxy */;
+		};
+		15C1437127B8ADBC0056C93B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15C1434E27B8ADB20056C93B /* Otoklix Test */;
+			targetProxy = 15C1437027B8ADBC0056C93B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15C1435827B8ADB30056C93B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C1435927B8ADB30056C93B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15C1435D27B8ADBB0056C93B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15C1435E27B8ADBB0056C93B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15C1437727B8ADBC0056C93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15C1437827B8ADBC0056C93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15C1437A27B8ADBC0056C93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F9F9D8FA9E09C8DF8D76ACD /* Pods-Otoklix Test.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQSC4G822R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Otoklix Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.yudha.tama.Otoklix-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		15C1437B27B8ADBC0056C93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C325B1429CF32578B7019BCA /* Pods-Otoklix Test.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQSC4G822R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Otoklix Test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.yudha.tama.Otoklix-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		15C1437D27B8ADBC0056C93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88653C5BF8AE1B7167A22E06 /* Pods-Otoklix TestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQSC4G822R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.yudha.tama.Otoklix-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otoklix Test.app/Otoklix Test";
+			};
+			name = Debug;
+		};
+		15C1437E27B8ADBC0056C93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B291084AB71F64FFD9973DB2 /* Pods-Otoklix TestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQSC4G822R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.yudha.tama.Otoklix-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Otoklix Test.app/Otoklix Test";
+			};
+			name = Release;
+		};
+		15C1438027B8ADBC0056C93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3128D7C7D367C0707175B17 /* Pods-Otoklix Test-Otoklix TestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQSC4G822R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.yudha.tama.Otoklix-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Otoklix Test";
+			};
+			name = Debug;
+		};
+		15C1438127B8ADBC0056C93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8A53235D7902F47734446E1 /* Pods-Otoklix Test-Otoklix TestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BQSC4G822R;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.yudha.tama.Otoklix-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Otoklix Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15C1434A27B8ADB20056C93B /* Build configuration list for PBXProject "Otoklix Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C1437727B8ADBC0056C93B /* Debug */,
+				15C1437827B8ADBC0056C93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C1437927B8ADBC0056C93B /* Build configuration list for PBXNativeTarget "Otoklix Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C1437A27B8ADBC0056C93B /* Debug */,
+				15C1437B27B8ADBC0056C93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C1437C27B8ADBC0056C93B /* Build configuration list for PBXNativeTarget "Otoklix TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C1437D27B8ADBC0056C93B /* Debug */,
+				15C1437E27B8ADBC0056C93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15C1437F27B8ADBC0056C93B /* Build configuration list for PBXNativeTarget "Otoklix TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15C1438027B8ADBC0056C93B /* Debug */,
+				15C1438127B8ADBC0056C93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15C1434727B8ADB20056C93B /* Project object */;
+}

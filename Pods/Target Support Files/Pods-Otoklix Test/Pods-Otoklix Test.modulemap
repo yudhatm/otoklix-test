@@ -1,0 +1,6 @@
+framework module Pods_Otoklix_Test {
+  umbrella header "Pods-Otoklix Test-umbrella.h"
+
+  export *
+  module * { export * }
+}
